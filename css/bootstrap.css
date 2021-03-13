@@ -6754,4 +6754,20 @@ button.close {
     display: none !important;
   }
 }
+.box-header{
+  color: #3c8dbc;
+  height: 80px;
+}
+.row-height{
+  height: 75px;
+  color: #3c8dbc;
+  font-size: 14px;
+}
+.dataTables_filter{
+  display: inline-block;
+}
+.search-input{
+  width: 800px;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=bootstrap.css.map */
