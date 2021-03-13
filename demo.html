@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="./img/favicon.ico">
+  <title>demo</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+  <link href="./css/carousel.css" rel="stylesheet">
+  <script src="./js/ie-emulation-modes-warning.js"></script>
+</head>
+
+<body>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+      <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active left">
+        <img class="first-slide" src="./img/e0.jpg" alt="First slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>美丽的紫阳湖</h1>
+          </div>
+        </div>
+      </div>
+      <div class="item next left">
+        <img class="second-slide" src="./img/e25.jpg" alt="Second slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>绿色校园</h1>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img class="third-slide" src="./img/e27.jpg" alt="Third slide">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>校园里的木屋</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <div class="container marketing">
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="img-circle" src="./img/3.jpg" alt="成谜学习，日渐消瘦" width="140" height="140">
+        <h2>成谜学习，日渐消瘦</h2>
+        <p>“活到老，学到老”，不管是在学校还是在工作岗位上都要不断的学习新的内容，不断丰富自己才能不把自己丢在起跑线上。我们提倡刻苦学习，但不要太过于沉迷，不然跟沉迷游戏对我们的身体损害是一样大的。</p>
+        <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+      </div>
+      <div class="col-lg-4">
+        <img class="img-circle" src="./img/1.gif" alt="好好学习，天天向上" width="140" height="140">
+        <h2>好好学习，天天向上</h2>
+        <p>1951年9月底，毛泽东接见安徽参加国庆的代表团，代表团成员中有渡江小英雄马三姐。毛泽东关切地问她念书情况，还送她一本精美的笔记本，并且在扉页上题词：好好学习，天天向上。迅速在全国传播开来。</p>
+        <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+      </div>
+      <div class="col-lg-4">
+        <img class="img-circle" src="./img/2.jpg" alt="程序员的人生" width="140" height="140">
+        <h2>程序员的人生</h2>
+        <p>程序员这个职业，说难也难，说容易也容易，难在于成为技术大牛，容易在于但凡智商够用都可以成为程序员。智商不够可以用勤奋来弥补。智商这一条对于程序员来说是一个基本条件，毕竟写代码是一个脑力劳动。</p>
+        <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <div class="box">
+      <div class="box-header">
+        <h1 class="box-title">学生成绩列表</h1>
+      </div>
+      <!-- /.box-header -->
+      <div class="box-body">
+        <div id="example1_wrapper" class="dataTables_wrapper form-inline dt-bootstrap">
+          <div class="row">
+            <div class="col-sm-6">
+              <div id="example1_filter" class="dataTables_filter"><label>Search:<input type="search"
+                    class="form-control input-sm" placeholder="" aria-controls="example1"></label></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <table id="example1" class="table table-bordered table-striped table-hover dataTable" role="grid"
+                aria-describedby="example1_info">
+                <thead>
+                  <tr role="row">
+                    <th aria-label="学生学号" style="width: 149.8px;">学生学号</th>
+                    <th aria-label="学生姓名" style="width: 192.04px;">学生姓名</th>
+                    <th aria-label="课程名称" style="width: 175.4px;">课程名称</th>
+                    <th aria-label="成绩" style="width: 128.68px;">成绩</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr role="row" class="odd">
+                    <td class="sorting_1">Gecko</td>
+                    <td>Firefox 1.0</td>
+                    <td>Win 98+ / OSX.2+</td>
+                    <td>1.7</td>
+                  </tr>
+                  <tr role="row" class="even">
+                    <td class="sorting_1">Gecko</td>
+                    <td>Firefox 1.5</td>
+                    <td>Win 98+ / OSX.2+</td>
+                    <td>1.8</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-5">
+              <div class="dataTables_info" id="example1_info" role="status" aria-live="polite">Showing 1 to 10 of 57
+                entries</div>
+            </div>
+            <div class="col-sm-7">
+              <div class="dataTables_paginate paging_simple_numbers" id="example1_paginate">
+                <ul class="pagination">
+                  <li class="paginate_button previous disabled" id="example1_previous"><a href="#"
+                      aria-controls="example1" data-dt-idx="0" tabindex="0">Previous</a></li>
+                  <li class="paginate_button active"><a href="#" aria-controls="example1" data-dt-idx="1"
+                      tabindex="0">1</a></li>
+                  <li class="paginate_button "><a href="#" aria-controls="example1" data-dt-idx="2" tabindex="0">2</a>
+                  </li>
+                  <li class="paginate_button "><a href="#" aria-controls="example1" data-dt-idx="3" tabindex="0">3</a>
+                  </li>
+                  <li class="paginate_button "><a href="#" aria-controls="example1" data-dt-idx="4" tabindex="0">4</a>
+                  </li>
+                  <li class="paginate_button "><a href="#" aria-controls="example1" data-dt-idx="5" tabindex="0">5</a>
+                  </li>
+                  <li class="paginate_button "><a href="#" aria-controls="example1" data-dt-idx="6" tabindex="0">6</a>
+                  </li>
+                  <li class="paginate_button next" id="example1_next"><a href="#" aria-controls="example1"
+                      data-dt-idx="7" tabindex="0">Next</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.box-body -->
+    </div>
+
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+
+    <!-- FOOTER -->
+    <footer>
+      <p class="pull-right"><a href="#">Back to top</a></p>
+      <p>© 2021 江西软件职业技术学院, 区块链. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+
+    </footer>
+  </div><!-- /.container -->
+
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="./js/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script src="./js/bootstrap.min.js"></script>
+  <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+  <script src="./js/holder.min.js"></script>
+  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  <script src="./js/ie10-viewport-bug-workaround.js"></script>
+
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none"
+    style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;">
+    <defs>
+      <style type="text/css"></style>
+    </defs><text x="0" y="25"
+      style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">500x500</text>
+  </svg>
+</body>
+
+</html>
